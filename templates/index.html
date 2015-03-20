@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Hello!</title>
+  </head>
+  <body>
+
+    {% include 'components/menu.html' %}
+
+    {% block content %}
+      <h1>Hello, world!</h1>
+
+      {% for post in content.articles %}
+        {% include 'components/teaser.html' with post only %}
+      {% endfor %}
+    {% endblock %}
+
+  </body>
+</html>
