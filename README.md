@@ -2,7 +2,7 @@ Stylex Barebones
 ----------------
 
 This is the example project that demonstrates getting started
-with Stylex - atomic design, style guides, and prototyping
+with [Stylex](https://github.com/darrenmothersele/stylex) - atomic design, style guides, and prototyping
 with Silex PHP.
 
 To get started run:
